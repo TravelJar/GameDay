@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--basic Solid colors-->
+    <color name="red">#CC0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="translucent">#CC000000</color>
+    <color name="transparent_black">#80000000</color>
+    <color name="black_semi_transparent">#B2000000</color>
+
+    <!-- TJ New colors -->
+    <color name="primaryColor">#11B5C8</color>
+    <color name="primaryColorDark">#0D8A99</color>
+
+    <color name="textOne">#F9A719</color>
+
+    <!-- gray colors-->
+    <color name="tj_gray_bg">#f6f6f6</color>
+    <color name="tj_light_gray">#EEEEEE</color>
+    <color name="tj_dark_gray">#333333</color>
+    <color name="tj_gray_border">#c8c8c8</color>
+
+    <!-- TJ custom colors-->
+    <color name="tj_red">#E74C3C</color>
+    <color name="tj_green">#16A085</color>
+    <color name="tj_orange">#F9A719</color>
+    <color name="tj_blue">#11B5C8</color>
+
+    <!-- Gradient colors-->
+    <color name="gradient_start_color">#00000000</color>
+    <color name="gradient_center_color">#11000000</color>
+    <color name="gradient_end_color">#ff000000</color>
+
+    <!-- Social brand colors-->
+    <color name="google_Red">#dd4b39</color>
+
+</resources>

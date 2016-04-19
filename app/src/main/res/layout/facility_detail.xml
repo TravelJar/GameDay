@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/facility_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facility Name : " />
+
+        <TextView
+            android:id="@+id/facility_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City : " />
+
+        <TextView
+            android:id="@+id/facility_gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current GPS : " />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/facility_detail_ll_amenities"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/tj_orange"
+        android:onClick="updateFacilityDetail"
+        android:text="UPDATE"
+        android:layout_margin="10dp"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
